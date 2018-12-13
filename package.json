@@ -14,7 +14,9 @@
   "scripts": {
     "analyze": "source-map-explorer build/static/js/main.*",
     "start": "react-scripts start",
+    "storybook": "start-storybook -p 9009 -s public",
     "build": "react-scripts build",
+    "build:storybook": "build-storybook -s public",
     "test": "react-scripts test",
     "test:coverage": "react-scripts test --coverage",
     "format": "prettier --write \"**/*.+(js|json|css)\"",
@@ -42,6 +44,10 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@storybook/addon-actions": "4.1.1",
+    "@storybook/addon-links": "4.1.1",
+    "@storybook/react": "4.1.1",
+    "babel-loader": "8.0.4",
     "cross-env": "5.2.0",
     "husky": "1.2.0",
     "lint-staged": "8.1.0",
