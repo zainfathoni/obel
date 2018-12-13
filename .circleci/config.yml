@@ -35,3 +35,6 @@ jobs:
 
       # run tests!
       - run: yarn validate
+
+      # Upload reports to Codecov
+      - run: bash <(curl -s https://codecov.io/bash) -t 22f5ffbf-771a-48ca-aa17-0ca885a5fbcc
