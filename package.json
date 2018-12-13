@@ -11,8 +11,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:coverage": "react-scripts test --coverage",
     "format": "prettier --write \"**/*.+(js|json|css)\"",
-    "validate": "cross-env CI=true npm-run-all --parallel test build"
+    "validate": "cross-env CI=true npm-run-all --parallel test:coverage build"
   },
   "husky": {
     "hooks": {
