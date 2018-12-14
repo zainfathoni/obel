@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": "./src"
+  },
+  "exclude": [
+    "build",
+    "coverage",
+    "cypress/screenshots",
+    "cypress/videos",
+    "node_modules",
+    "storybook-static"
+  ]
+}
