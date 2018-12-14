@@ -9,7 +9,7 @@
     "email": "zain.fathoni@gmail.com",
     "url": "https://medium.com/pejuang-kode/"
   },
-  "license": "UNLICENSED",
+  "license": "SEE LICENSE IN LICENSE",
   "repository": "github:zainfathoni/obel",
   "dependencies": {
     "@emotion/core": "10.0.5",

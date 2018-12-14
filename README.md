@@ -87,6 +87,5 @@ This way, we can prevent unformatted file to be committed to the repository.
 
 ## License
 
-All code in this repository which is merged into the `master` branch belongs to Zain Fathoni and he free to use it anywhere and anytime.
-
-By pushing your code into this repository and getting it merged, you accept and agree these terms and conditions.
+© Copyright 2018-2019 Zain Fathoni, all rights reserved.
+For more information, see the LICENSE file in this directory.
