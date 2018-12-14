@@ -4,7 +4,12 @@
   "homepage": "https://www.ojekbelanja.com/",
   "version": "0.1.0",
   "private": true,
-  "license": "UNLICENSED",
+  "author": {
+    "name": "Zain Fathoni",
+    "email": "zain.fathoni@gmail.com",
+    "url": "https://medium.com/pejuang-kode/"
+  },
+  "license": "SEE LICENSE IN LICENSE",
   "repository": "github:zainfathoni/obel",
   "dependencies": {
     "@emotion/core": "10.0.5",
