@@ -27,6 +27,7 @@
     "serve": "serve --no-clipboard --single --listen 3000 build",
     "test": "react-scripts test",
     "test:coverage": "react-scripts test --coverage",
+    "eject": "react-scripts eject",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
     "test:e2e": "is-ci \"test:e2e:run\" \"test:e2e:dev\"",
