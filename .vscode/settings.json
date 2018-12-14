@@ -3,5 +3,6 @@
   "eslint.autoFixOnSave": true,
   "eslint.run": "onType",
   "prettier.eslintIntegration": true,
-  "todohighlight.toggleURI": true
+  "todohighlight.toggleURI": true,
+  "typescript.disableAutomaticTypeAcquisition": true,
 }
