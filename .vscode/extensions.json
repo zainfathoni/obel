@@ -1,0 +1,20 @@
+{
+  "recommendations": [
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense",
+    "coenraads.bracket-pair-colorizer",
+    "dbaeumer.vscode-eslint",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "formulahendry.auto-close-tag",
+    "jpoissonnier.vscode-styled-components",
+    "orta.vscode-jest",
+    "pnp.polacode",
+    "tombonnike.vscode-status-bar-format-toggle",
+    "wayou.vscode-todo-highlight",
+    "yzhang.markdown-all-in-one"
+  ],
+  "unwantedRecommendations": []
+}
