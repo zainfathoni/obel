@@ -7,6 +7,8 @@
   "license": "UNLICENSED",
   "repository": "github:zainfathoni/obel",
   "dependencies": {
+    "@emotion/core": "10.0.5",
+    "@emotion/styled": "10.0.5",
     "react": "16.7.0-alpha.2",
     "react-dom": "16.7.0-alpha.2",
     "react-scripts": "2.1.1"

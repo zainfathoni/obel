@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Ojek Belanja
+
+[![CircleCI](https://circleci.com/gh/zainfathoni/obel.svg?style=shield&circle-token=1000aed8de1cb706801f05d5e9b1dc368bf13a46)](https://circleci.com/gh/zainfathoni/obel)
+[![codecov](https://codecov.io/gh/zainfathoni/obel/branch/master/graph/badge.svg?token=KBOL05Mq5P)](https://codecov.io/gh/zainfathoni/obel)
 
 ## Available Scripts
 
