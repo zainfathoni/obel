@@ -4,6 +4,11 @@
   "homepage": "https://www.ojekbelanja.com/",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Zain Fathoni",
+    "email": "zain.fathoni@gmail.com",
+    "url": "https://medium.com/pejuang-kode/"
+  },
   "license": "UNLICENSED",
   "repository": "github:zainfathoni/obel",
   "dependencies": {
