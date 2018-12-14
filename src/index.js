@@ -2,7 +2,7 @@ import { Router } from '@reach/router'
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import 'index.css'
+import 'global-styles.css'
 import Home from 'screens/home'
 import * as serviceWorker from 'shared/serviceWorker'
 
