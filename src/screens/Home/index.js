@@ -1,28 +1,29 @@
 import React, { Component } from 'react'
-import logo from './logo.svg'
-import './App.css'
 
-class App extends Component {
+import logo from './logo.svg'
+import { Container, Header, Link, Logo } from './styles'
+
+class Home extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+      <Container>
+        <Header>
+          <Logo alt="logo" src={logo} />
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-          <a
+          <Link
             className="App-link"
             href="https://reactjs.org"
-            target="_blank"
             rel="noopener noreferrer"
+            target="_blank"
           >
             Learn React
-          </a>
-        </header>
-      </div>
+          </Link>
+        </Header>
+      </Container>
     )
   }
 }
 
-export default App
+export default Home
