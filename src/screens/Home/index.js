@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMotorcycle } from '@fortawesome/pro-light-svg-icons'
 
 import logo from './logo.svg'
 import { Container, Header, Link, Logo } from './styles'
@@ -10,7 +12,7 @@ class Home extends Component {
         <Header>
           <Logo alt="logo" src={logo} />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Ojek <FontAwesomeIcon icon={faMotorcycle} /> Belanja
           </p>
           <Link
             className="App-link"
