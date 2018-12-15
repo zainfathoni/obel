@@ -22,7 +22,6 @@
     "@babel/core": "7.2.0",
     "@storybook/addon-actions": "4.1.1",
     "@storybook/addon-links": "4.1.1",
-    "@storybook/addon-storyshots": "4.1.1",
     "@storybook/react": "4.1.1",
     "babel-loader": "8.0.4",
     "cross-env": "5.2.0",
@@ -77,6 +76,7 @@
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}",
+      "!src/**/__stories__/*.stories.{js,jsx}",
       "!src/index.js",
       "!src/shared/serviceWorker.js"
     ]
