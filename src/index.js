@@ -3,7 +3,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 import 'global-styles.css'
-import Home from 'screens/Base'
+import Home from 'screens/Home'
 import * as serviceWorker from 'shared/serviceWorker'
 
 function App() {
