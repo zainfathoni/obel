@@ -12,6 +12,7 @@
   "repository": "github:zainfathoni/obel",
   "dependencies": {
     "@babel/core": "7.1.0",
+    "@babel/polyfill": "7.0.0",
     "@emotion/core": "10.0.5",
     "@emotion/styled": "10.0.5",
     "@reach/router": "1.2.1",
@@ -21,6 +22,7 @@
     "babel-jest": "23.6.0",
     "babel-loader": "8.0.4",
     "babel-plugin-named-asset-import": "^0.2.3",
+    "babel-plugin-require-context-hook": "1.0.0",
     "babel-preset-react-app": "^6.1.0",
     "bfj": "6.1.1",
     "case-sensitive-paths-webpack-plugin": "2.1.2",
@@ -126,6 +128,7 @@
     "setupFiles": [
       "react-app-polyfill/jsdom"
     ],
+    "setupTestFrameworkScriptFile": "<rootDir>/testing/setupTestFramework.js",
     "testMatch": [
       "<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}",
       "<rootDir>/src/**/?(*.)(spec|test).{js,jsx,ts,tsx}"
@@ -135,6 +138,7 @@
     "transform": {
       "^.+\\.(js|jsx|ts|tsx)$": "<rootDir>/node_modules/babel-jest",
       "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
+      "^.+\\.(js|jsx)?$": "<rootDir>/testing/storyshotsTransform.js",
       "^(?!.*\\.(js|jsx|ts|tsx|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
     },
     "transformIgnorePatterns": [
