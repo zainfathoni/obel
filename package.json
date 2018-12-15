@@ -55,7 +55,7 @@
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}",
       "!src/index.js",
-      "!src/serviceWorker.js"
+      "!src/shared/serviceWorker.js"
     ]
   },
   "browserslist": [
