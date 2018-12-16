@@ -1,10 +1,10 @@
 import React from 'react'
 import { render } from 'react-testing-library'
 
-import Home from '..'
+import Ojek from '..'
 
 it('renders without crashing', () => {
-  const { getByText } = render(<Home />)
-  const title = getByText(/ojek.+belanja/i)
+  const { getByText } = render(<Ojek name="Jejen" />)
+  const title = getByText(/jejen/i)
   expect(title).toBeDefined()
 })
