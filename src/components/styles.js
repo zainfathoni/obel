@@ -1,3 +1,6 @@
+import { Link } from '@reach/router'
+import React from 'react'
+
 import styled from '@emotion/styled/macro'
 
 export const AppContainer = styled.div`
@@ -23,4 +26,8 @@ export const NavContainer = styled.nav`
     text-decoration: none;
     transition: 0.25s;
   }
+`
+
+export const NavLink = styled(({ right, ...props }) => <Link {...props} />)`
+  ${props => props.right && `margin-left: auto;`}
 `

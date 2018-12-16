@@ -1,13 +1,15 @@
-import { Link } from '@reach/router'
 import React from 'react'
 
-import { NavContainer } from './styles'
+import { NavContainer, NavLink } from './styles'
 
 function Nav() {
   return (
     <NavContainer>
-      <Link to="/">Home</Link>
-      <Link to="ojek/jejen">Ojek</Link>
+      <NavLink to="/">Home</NavLink>
+      <NavLink to="ojek/jejen">Ojek</NavLink>
+      <NavLink right to="login">
+        Login
+      </NavLink>
     </NavContainer>
   )
 }
