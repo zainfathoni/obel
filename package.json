@@ -88,7 +88,7 @@
       "src/**/*.{js,jsx}",
       "!src/**/__stories__/*.stories.{js,jsx}",
       "!src/index.js",
-      "!src/shared/serviceWorker.js"
+      "!src/utils/serviceWorker.js"
     ],
     "coverageThreshold": {
       "global": {
