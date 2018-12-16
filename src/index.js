@@ -1,18 +1,9 @@
-import { Router } from '@reach/router'
 import React from 'react'
 import ReactDOM from 'react-dom'
 
 import 'global-styles.css'
-import Home from 'screens/Home'
-import * as serviceWorker from 'shared/serviceWorker'
-
-function App() {
-  return (
-    <Router>
-      <Home path="/" />
-    </Router>
-  )
-}
+import App from 'components/App'
+import * as serviceWorker from 'utils/serviceWorker'
 
 const ui = <App />
 const container = document.getElementById('root')

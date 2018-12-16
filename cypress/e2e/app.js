@@ -8,5 +8,10 @@ describe('create-react-app default app', () => {
       .click()
       .url()
       .should('eq', `${Cypress.config().baseUrl}/`)
+
+    cy.getByText(/ojek/i)
+      .click()
+      .url()
+      .should('eq', `${Cypress.config().baseUrl}/ojek/jejen`)
   })
 })
