@@ -89,7 +89,15 @@
       "!src/**/__stories__/*.stories.{js,jsx}",
       "!src/index.js",
       "!src/shared/serviceWorker.js"
-    ]
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
   },
   "browserslist": [
     ">0.2%",
