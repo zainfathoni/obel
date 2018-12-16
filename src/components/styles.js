@@ -9,13 +9,16 @@ export const AppContainer = styled.div`
   flex-direction: column;
 `
 
-export const NavContainer = styled.nav`
+export const NavWrapper = styled.div`
   background-color: #d1c4e9;
+`
+
+export const NavContainer = styled.nav`
   display: flex;
   justify-content: flex-start;
   line-height: 3rem;
   margin: auto;
-  min-width: 60em;
+  max-width: 60em;
 
   a {
     border-right-color: rgba(0, 0, 0, 0.12);
