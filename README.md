@@ -83,7 +83,60 @@ This way, we can prevent unformatted file to be committed to the repository.
 
 ## Contributing
 
-### Git Commits Signing
+### Agile Methodology
+
+We are using Kanban methodology with the Kanban Board represented by the Project Boards of this GitHub repository.
+Please refer to this [Professional SCRUM Developer Glossary](https://www.scrum.org/resources/professional-scrum-developer-glossary) for any unknown terms mentioned below.
+
+> Note: Yes, it is a **SCRUM** glossary, not a **Kanban** glossary. However, even though SCRUM and Kanban are technically different, they share similar concepts. Which is why we can use the same glossary references for both of them.
+
+For each issue, I will define at least four of these specifications:
+
+1. 🗣 User Story
+2. 🆗 Acceptance Criteria
+3. ✅ Tasks
+4. 💵 Price
+
+#### 1. User Story
+
+It's where I define the main objectives that I'm trying to achieve.
+It could be as simple as clicking a button and navigate to another page, but it also could be as complex as a registration flow for the user.
+
+#### 2. Acceptance Criteria
+
+It contains the criteria of the defined **User Story** above and covers all cases which are need to be covered in the tests, including edge cases.
+
+#### 3. Tasks
+
+It contains a collection of the tasks needed to be completed before the work is eligible to be merged.
+The possible values are:
+
+- [ ] Component **Logic** ➡ The interaction logic of the component
+  - [ ] **End-to-End** Tests ➡ using `cypress` in the `cypress/e2e` folder
+  - [ ] **Integration** Tests ➡ using `react-testing-library` in the `__tests__` folder
+- [ ] Component **Styling** ➡ The visual appearance of the component
+  - [ ] **Visual** Tests ➡ using `storybook` in the `__stories__` folder
+- [ ] **Utility** Function ➡ The generic utility functions reusable across components
+  - [ ] **Unit** Tests ➡ using plain JavaScript testing to cover edge cases untested with the Integration Tests
+
+#### 4. Price
+
+I will offer the price of the issue proportionally based on its complexity.
+It's okay to challenge my pricing, if you think it's not fair enough.
+
+Payment will be done in batch, probably biweekly or monthly, I don't want to waste my time to process too many transactions due to rigorous payment processing.
+
+Well, even though the price is way below under the market rate, but I offer a useful learning experience by doing this project. 😉
+
+### Technical Constraints
+
+#### Git Commits Signing
+
+Since I have never met most of the collaborators prior to this project initiation, I want to make sure that all of them are [accountable of the codes they contributed](https://nvisium.com/blog/2017/06/21/securing-github-commits-with-gpg-signing.html). By getting invited to collaborate this repository, you should have been able to do [Git Commits Signing].
+
+Therefore, I decide that it is mandatory for the Pull Requests to be merged to only contains commits with verified signatures.
+If you accidentally committed an unsigned commit, you can try to [rewrite the Git commit history](https://www.atlassian.com/git/tutorials/rewriting-history).
+Just reach out to me, I will be glad to help you if you get that kind of problem.
 
 ## License
 
