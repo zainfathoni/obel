@@ -140,5 +140,6 @@ Just reach out to me, I will be glad to help you if you get that kind of problem
 
 ## License
 
-© Copyright 2018-2019 Zain Fathoni, all rights reserved.
+© Copyright 2018-2019 Zain Fathoni, All Rights Reserved.
+
 For more information, see the LICENSE file in this directory.
