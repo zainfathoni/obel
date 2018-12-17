@@ -130,6 +130,22 @@ Well, even though the price is way below under the market rate, but I offer a us
 
 ### Technical Constraints
 
+#### Git Fundamentals
+
+Since we are using GitHub as our main collaboration tool, it's mandatory for each of us to understand the fundamentals of Git. I need you to be familiarized with these Git operations and their fundamental concepts:
+
+- `commit`
+- `branch`
+- `merge`
+- `rebase`
+- `reset`
+- `revert`
+- `clone`
+- `fork`
+- `bisect`
+
+If you don't know what those Git operations mean, just ping me in the group chat so I can help you explaining them. I also have [a presentation slide](https://drive.google.com/open?id=1UsWALDH3aDwAXNLAYLRjk2uvCE7DbS0F) that I used to explain some of those concepts into my subordinates in my past workplace.
+
 #### Git Commits Signing
 
 Since I have never met most of the collaborators prior to this project initiation, I want to make sure that all of them are [accountable of the codes they contributed](https://nvisium.com/blog/2017/06/21/securing-github-commits-with-gpg-signing.html). By getting invited to collaborate this repository, you should have been able to do [Git Commits Signing].
@@ -137,6 +153,41 @@ Since I have never met most of the collaborators prior to this project initiatio
 Therefore, I decide that it is mandatory for the Pull Requests to be merged to only contains commits with verified signatures.
 If you accidentally committed an unsigned commit, you can try to [rewrite the Git commit history](https://www.atlassian.com/git/tutorials/rewriting-history).
 Just reach out to me, I will be glad to help you if you get that kind of problem.
+
+#### Forking
+
+It's completely fine to [fork this repository](https://help.github.com/articles/fork-a-repo/) so you could play around with your own pace, as long as you don't use it directly for a project in production, but make sure that you know what you're doing, because it means that you have to make sure that your fork repository is [properly synchronized](https://help.github.com/articles/syncing-a-fork/) to my upstream repository.
+
+To verify that you set up your local machine correctly with your fork repository and my upstream repository, just run the `git remote -v` command and you should see something like this.
+
+```bash
+$ git remote -v
+origin    https://github.com/YOUR_USERNAME/obel.git (fetch)
+origin    https://github.com/YOUR_USERNAME/obel.git (push)
+upstream  https://github.com/zainfathoni/obel.git (fetch)
+upstream  https://github.com/zainfathoni/obel.git (push)
+```
+
+#### Creating Pull Requests
+
+If you create a Pull Request directly from your fork's branch, it will be too tedious for me to clone all your fork repositories just to contribute to the Pull Requests.
+While I think it's still simple enough for you to add another Git remote repository (which is this repository) as an upstream repository. So I recommend you to push that branch into a branch in this repository and try to create another Pull Request from the branch in this repository instead.
+
+It's probably not common in most open source projects in GitHub, where you could just create Pull Requests from your own fork repository branches.
+Honestly, I do it all the time.
+But I think it's necessary for this project to have this kind of convention, because in this project I don't expect you to work on the issues by yourself, I am trying to assist you in doing your work, while in those open source projects you're expected to work on your stuffs by yourself independently.
+
+#### Branch Naming Convention
+
+I would like to have all branches in this repository except `master` and `dev` (if any) to be namespaced properly by adding prefixes separated by `/` in the branch name.
+
+Inspired by some of [existing Git Workflows out there](https://www.atlassian.com/git/tutorials/comparing-workflows), I decided to have this convention:
+
+| Branch Tpmplate                              | Example                                 | Purpose                                            |
+| -------------------------------------------- | --------------------------------------- | -------------------------------------------------- |
+| `feature/[username]/[issue-id]-[issue-slug]` | `feature/zainfathoni/14-top-navigation` | For new development tasks related to an issue      |
+| `bugfix/[username]/[issue-id]-[bug-slug]`    | `bugfix/adibfirman/10-nav-link`         | For bug fixes related to an issue                  |
+| `personal/[username]`                        | `personal/ri7nz`                        | For all your initiatives, undocumented tasks, etc. |
 
 ## License
 
