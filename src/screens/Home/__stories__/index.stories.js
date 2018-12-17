@@ -4,4 +4,4 @@ import { storiesOf } from '@storybook/react'
 
 import Home from '..'
 
-storiesOf('Home', module).add('index', () => <Home />)
+storiesOf('screens/Home', module).add('index', () => <Home />)
