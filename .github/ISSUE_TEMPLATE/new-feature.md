@@ -14,8 +14,21 @@ As a _role_, I want _feature_ so that _reason_.
 
 ## Acceptance Criteria
 
-- _Criterion #1_
-- _Criterion #2_
+- [ ] **_Scenario Title #1_**
+
+  | Label     | Condition              |
+  | --------- | ---------------------- |
+  | **Given** | _An initial condition_ |
+  | **When**  | _Something happens_    |
+  | **Then**  | _This is the result_   |
+
+- [ ] **_Scenario Title #2_**
+
+  | Label     | Condition              |
+  | --------- | ---------------------- |
+  | **Given** | _An initial condition_ |
+  | **When**  | _Something happens_    |
+  | **Then**  | _This is the result_   |
 
 ## Tasks
 
