@@ -185,8 +185,8 @@ Inspired by some of [existing Git Workflows out there](https://www.atlassian.com
 
 | Branch Tpmplate                              | Example                                 | Purpose                                            |
 | -------------------------------------------- | --------------------------------------- | -------------------------------------------------- |
-| `feature/[username]/[issue-id]-[issue-slug]` | `feature/zainfathoni/14-top-navigation` | For new development tasks related to an issue      |
-| `bugfix/[username]/[issue-id]-[bug-slug]`    | `bugfix/adibfirman/10-nav-link`         | For bug fixes related to an issue                  |
+| `feature/[issue-id]-[issue-slug]/[username]` | `feature/14-top-navigation/zainfathoni` | For new development tasks related to an issue      |
+| `bugfix/[issue-id]-[bug-slug]/[username]`    | `bugfix/10-nav-link/adibfirman`         | For bug fixes related to an issue                  |
 | `personal/[username]`                        | `personal/ri7nz`                        | For all your initiatives, undocumented tasks, etc. |
 
 ## License
