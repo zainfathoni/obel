@@ -111,13 +111,20 @@ It contains the criteria of the defined **User Story** above and covers all case
 It contains a collection of the tasks needed to be completed before the work is eligible to be merged.
 The possible values are:
 
-- [ ] Component **Logic** ➡ The interaction logic of the component
-  - [ ] **End-to-End** Tests ➡ using `cypress` in the `cypress/e2e` folder
-  - [ ] **Integration** Tests ➡ using `react-testing-library` in the `__tests__` folder
-- [ ] Component **Styling** ➡ The visual appearance of the component
-  - [ ] **Visual** Tests ➡ using `storybook` in the `__stories__` folder
-- [ ] **Utility** Function ➡ The generic utility functions reusable across components
-  - [ ] **Unit** Tests ➡ using plain JavaScript testing to cover edge cases untested with the Integration Tests
+- [ ] **Component Logic**\
+  The interaction logic of the component
+  - [ ] **End-to-End Tests**\
+    Testing the whole app functionalities using `cypress` in the `cypress/e2e` folder
+  - [ ] **Integration Tests**\
+    Testing integration of complex components using `react-testing-library` in the `__tests__` folder
+- [ ] **Component Styling**
+  The visual appearance of the component
+  - [ ] **Visual Tests**\
+    Testing components' visual interaction using `storybook` in the `__stories__` folder
+- [ ] **Utility Function**\
+  The generic utility functions reusable across components
+  - [ ] **Unit Tests**\
+    Mostly just test functions using plain JavaScript testing to cover edge cases untested with the Integration Tests
 
 #### 4. Price
 
@@ -144,7 +151,24 @@ Since we are using GitHub as our main collaboration tool, it's mandatory for eac
 - `fork`
 - `bisect`
 
-If you don't know what those Git operations mean, just ping me in the group chat so I can help you explaining them. I also have [a presentation slide](https://drive.google.com/open?id=1UsWALDH3aDwAXNLAYLRjk2uvCE7DbS0F) that I used to explain some of those concepts into my subordinates in my past workplace.
+If you don't know what those Git operations mean, just ping me in the group chat so I can help you explaining them.
+
+##### Git Learning Resources
+
+Here are a few free resources that might be useful to help you learning Git fundamentals:
+
+- [Git Best Practices.pptx](https://drive.google.com/open?id=1UsWALDH3aDwAXNLAYLRjk2uvCE7DbS0F)\
+  A presentation slide that I used to explain some of those concepts into my subordinates in my past workplace.
+- [Think Like (a) Git](http://think-like-a-git.net/)\
+  A website explaining the basic concepts of Git `commit` & `branch` in a simple way.
+- [Learn Version Control with Git](https://www.git-tower.com/learn/git/ebook)\
+  A comprehensive Git tutorial by [Git Tower](https://www.git-tower.com), a paid Git client.
+  Also available in the [video format](https://www.git-tower.com/learn/git/videos).
+- [GitHub Learning Lab](https://lab.github.com/)\
+  An interactive tutorial by GitHub for learning basic Git operations, including `fork`.
+- [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials)
+  A comprehensive Git tutorial by [Atlassian](https://www.atlassian.com).
+  Its [Collaborating](https://www.atlassian.com/git/tutorials) section is pretty useful to help us understand the complexity (or the simplicity 😁) of collaboration through Git.
 
 #### Git Commits Signing
 
