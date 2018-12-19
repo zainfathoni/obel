@@ -104,27 +104,32 @@ It could be as simple as clicking a button and navigate to another page, but it 
 
 #### 2. Acceptance Criteria
 
-It contains the criteria of the defined **User Story** above and covers all cases which are need to be covered in the tests, including edge cases.
+It contains the scenarios related to the defined **User Story** above.
+It should covers all cases which are need to be covered in the tests, including the edge cases.
 
-#### 3. Tasks
+#### 3. Deliverables
 
-It contains a collection of the tasks needed to be completed before the work is eligible to be merged.
+It contains a collecttion of the tasks needed to be delivered before the work is eligible to be merged.
 The possible values are:
 
-- [ ] **Component Logic**\
-  The interaction logic of the component
-  - [ ] **End-to-End Tests**\
+- **Components**\
+  The composable components to build the whole functionalities
+  - **Logic**\
+    The interaction logic of the component
+  - **Styling**\
+    The visual appearance of the component
+  - **Utilities**\
+    The generic utility functions reusable across components
+- **Tests**\
+  The mandatory tests to be written to increase confidence to refactor the application in the future
+  - **End-to-End Tests**\
     Testing the whole app functionalities using `cypress` in the `cypress/e2e` folder
-  - [ ] **Integration Tests**\
-    Testing integration of complex components using `react-testing-library` in the `__tests__` folder
-- [ ] **Component Styling**
-  The visual appearance of the component
-  - [ ] **Visual Tests**\
-    Testing components' visual interaction using `storybook` in the `__stories__` folder
-- [ ] **Utility Function**\
-  The generic utility functions reusable across components
-  - [ ] **Unit Tests**\
-    Mostly just test functions using plain JavaScript testing to cover edge cases untested with the Integration Tests
+  - **Integration Tests**\
+    Testing the integration of complex components using `react-testing-library` in the `__tests__` folder
+  - **Visual Tests**\
+    Testing the components' visual interaction using `storybook` in the `__stories__` folder
+  - **Unit Tests**\
+    Test utility functions using plain JavaScript testing to cover edge cases untested with the Integration Tests
 
 #### 4. Price
 
