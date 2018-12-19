@@ -10,11 +10,11 @@ Branch Name: **`feature/issue-slug/*`**
 
 ## User Story
 
-As a _role_, I want _feature_ so that _reason_.
+**As a** _role_, **I want** _feature_ **so that** _reason_.
 
 ## Acceptance Criteria
 
-- [ ] **_Scenario 1_**
+- [ ] **Scenario**: _Scenario 1_
 
   | Label     | Condition              |
   | --------- | ---------------------- |
@@ -22,7 +22,7 @@ As a _role_, I want _feature_ so that _reason_.
   | **When**  | _Something happens_    |
   | **Then**  | _This is the result_   |
 
-- [ ] **_Scenario 2_**
+- [ ] **Scenario**: _Scenario 2_
 
   | Label     | Condition              |
   | --------- | ---------------------- |
@@ -30,22 +30,43 @@ As a _role_, I want _feature_ so that _reason_.
   | **When**  | _Something happens_    |
   | **Then**  | _This is the result_   |
 
-## Tasks
+## Deliverables
 
-- [ ] **Component Logic**\
-       _The interaction logic of the component_
-  - [ ] **End-to-End Tests**\
-         _Testing the whole app functionalities using `cypress` in the `cypress/e2e` folder_
-  - [ ] **Integration Tests**\
-         _Testing integration of complex components using `react-testing-library` in the `__tests__` folder_
-- [ ] **Component Styling**
-      _The visual appearance of the component_
-  - [ ] **Visual Tests**\
-         _Testing components' visual interaction using `storybook` in the `__stories__` folder_
-- [ ] **Utility Function**\
-       _The generic utility functions reusable across components_
-  - [ ] **Unit Tests**\
-         _Mostly just test functions using plain JavaScript testing to cover edge cases untested with the Integration Tests_
+### _Name_ Component
+
+_Component description_
+
+#### Files
+
+| Deliverables | Filename                     | Description             |
+| ------------ | ---------------------------- | ----------------------- |
+| Logic        | `[/path/to/Name]/index.js`   | _Logic description_     |
+| Styling      | `[/path/to/Name]/styles.js`  | _Styling specification_ |
+| Utility      | `[/path/to/utility-name].js` | _Utility description_   |
+
+| Tests       | Filename                                                     | Description                    |
+| ----------- | ------------------------------------------------------------ | ------------------------------ |
+| End-to-End  | `/cypress/e2e/[scenario-name].js`                            | _End-to-End test description_  |
+| Integration | `[/path/to/Name]/__tests__/index.test.js`                    | _Integration test description_ |
+| Visual      | `[/path/to/Name]/__stories__/index.stories.js`               | _Visual test description_      |
+| Unit        | `[/path/to/utility-folder]/__tests__/[utility-name].test.js` | _Unit test description_        |
+
+#### Description
+
+##### Logic
+
+  - [ ] _Logic 1_
+  - [ ] _Logic 2_
+
+##### Styling
+
+  - [ ] _Styling 1_
+  - [ ] _Styling 2_
+
+##### Utilities
+
+  - [ ] _Utility 1_
+  - [ ] _Utility 2_
 
 ## Price
 
