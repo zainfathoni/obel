@@ -3,12 +3,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMotorcycle } from '@fortawesome/pro-light-svg-icons'
 
 import logo from './logo.svg'
-import { Container } from 'shared/styles'
 import { Main, Link, Logo } from './styles'
 
 function Home() {
   return (
-    <Container>
+    <div className="text-center">
       <Main>
         <Logo alt="logo" src={logo} />
         <p>
@@ -23,7 +22,7 @@ function Home() {
           Learn React
         </Link>
       </Main>
-    </Container>
+    </div>
   )
 }
 

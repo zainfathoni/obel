@@ -1,14 +1,12 @@
 import React from 'react'
 
-import { Container } from 'shared/styles'
-
 function Ojek(props) {
   return (
-    <Container>
+    <div className="text-center">
       <header>
         <p>Anda sedang berbelanja di Ojek {props.name}</p>
       </header>
-    </Container>
+    </div>
   )
 }
 
