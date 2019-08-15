@@ -1,4 +1,5 @@
 {
+  "css.validate": false,
   "eslint.alwaysShowStatus": true,
   "eslint.autoFixOnSave": true,
   "eslint.run": "onType",
