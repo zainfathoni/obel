@@ -64,7 +64,7 @@
     "build:css": "postcss src/shared/tailwind.css -o src/index.css",
     "serve": "serve --no-clipboard --single --listen 3000 build",
     "test": "react-scripts test",
-    "test:coverage": "react-scripts test --coverage",
+    "test:coverage": "react-scripts test --coverage --watchAll=false",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
     "test:e2e": "is-ci \"test:e2e:run\" \"test:e2e:dev\"",
