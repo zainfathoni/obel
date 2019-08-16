@@ -998,7 +998,7 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.3.tgz#dfa0c92efe44a1d1a7974fb49ffeb40ef2da5a27"
   integrity sha512-zVgvPwGK7c1aVdUVc9Qv7SqepOGRDrqCw7KZPSZziWGxSlbII3gmvGLPzLX4d0n0BMbamBacUrN22zOMyFFEkQ==
 
-"@fortawesome/fontawesome-common-types@^0.2.10", "@fortawesome/fontawesome-common-types@^0.2.21":
+"@fortawesome/fontawesome-common-types@^0.2.21":
   version "0.2.21"
   resolved "https://npm.fontawesome.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.21.tgz#f1c26ae24761cca583de7cafd1273ab4c70a4d87"
   integrity sha512-iJtcrU2BtF9Wyr0zm3tHEJy3HqA6sADExhCqCv3SKaJJKKp4ORJ40t4nyHvcWXSVFtd7r1gcdqcRsAfoREGTFA==
@@ -1008,10 +1008,10 @@
   resolved "https://npm.fontawesome.com/@fortawesome/fontawesome-free/-/fontawesome-free-5.10.1.tgz#dec28ee02c3fc51da46d53ce4da9d5787312fbd7"
   integrity sha512-PYncBhgN1l02mwHmczukexmu4yRTjRDAAdcK62jdWSAW8epcnZ9K2win/7rMrffiv/c7XLVDA8vD+yi6WyvbGQ==
 
-"@fortawesome/fontawesome-pro@5.6.1":
-  version "5.6.1"
-  resolved "https://npm.fontawesome.com/@fortawesome/fontawesome-pro/-/fontawesome-pro-5.6.1.tgz#aec541f9b72067273b2724abcc2637b69b1add05"
-  integrity sha512-rAar1FrNt5aTYkt87RIyasZuds4o8iAVTepwAB0Rrz9fOgYIJdWuuOTxsg7jNXahWFgW/rvFDV/ucQOzu/QM8A==
+"@fortawesome/fontawesome-pro@5.10.1":
+  version "5.10.1"
+  resolved "https://npm.fontawesome.com/@fortawesome/fontawesome-pro/-/fontawesome-pro-5.10.1.tgz#4c6705385c5e0051790afd22991892ab36b909f6"
+  integrity sha512-fmmVX3v3gDeRk9uC6phYbCT2QZQqBSkn71sTvmTDUEi5o1AYlPn8GjirUZfaGY3wpXva2KnqOCi0iX1UNiqhLA==
 
 "@fortawesome/fontawesome-svg-core@1.2.21":
   version "1.2.21"
@@ -1041,12 +1041,12 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.21"
 
-"@fortawesome/pro-light-svg-icons@5.6.1":
-  version "5.6.1"
-  resolved "https://npm.fontawesome.com/@fortawesome/pro-light-svg-icons/-/pro-light-svg-icons-5.6.1.tgz#965c072297fe64d7d0dae6e904caa29272ad47ab"
-  integrity sha512-eYaazW5s75jkcsTqck+mQs+zNj8HIcRSMrBXFsGbvG7LGaRBw1fHkiIBqFlxC5S9E0nt0nibGT4MusBu2QUOHg==
+"@fortawesome/pro-light-svg-icons@5.10.1":
+  version "5.10.1"
+  resolved "https://npm.fontawesome.com/@fortawesome/pro-light-svg-icons/-/pro-light-svg-icons-5.10.1.tgz#cad4424b2ad8ac2e1180665be3f7d076b319dee5"
+  integrity sha512-Z4dQ7bbvvXyEn4dWWPVZR74wWBGUhqfraf1BtS03vuaMEfc7QuMws4CJCvKNvtwolsaaj6PjEpSr2lzfsGrWsQ==
   dependencies:
-    "@fortawesome/fontawesome-common-types" "^0.2.10"
+    "@fortawesome/fontawesome-common-types" "^0.2.21"
 
 "@fortawesome/pro-regular-svg-icons@5.10.1":
   version "5.10.1"
@@ -1055,17 +1055,17 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.21"
 
-"@fortawesome/pro-solid-svg-icons@5.6.1":
-  version "5.6.1"
-  resolved "https://npm.fontawesome.com/@fortawesome/pro-solid-svg-icons/-/pro-solid-svg-icons-5.6.1.tgz#7f6eee68dacc9d4f519d76ca0eaf6ba7fd2ae510"
-  integrity sha512-4nPqU4q1KgIgDO7QJN6uuVqagH+X77DmoQawTwrPs2CPkbtfJTNUn8N5ctXQWpJa/cYs1nxCNS5tkInYUMMq5Q==
+"@fortawesome/pro-solid-svg-icons@5.10.1":
+  version "5.10.1"
+  resolved "https://npm.fontawesome.com/@fortawesome/pro-solid-svg-icons/-/pro-solid-svg-icons-5.10.1.tgz#37d9641baa96a76216dc72af9136f2952eb2a5f0"
+  integrity sha512-MdHMBSE40zKMHSPEwmU2nSwZRQUO1an9f+mENHqFi6apUS4q4WwrxHABsmOfk/2e+GSIEJchOVMiljqpUqbbUQ==
   dependencies:
-    "@fortawesome/fontawesome-common-types" "^0.2.10"
+    "@fortawesome/fontawesome-common-types" "^0.2.21"
 
-"@fortawesome/react-fontawesome@0.1.3":
-  version "0.1.3"
-  resolved "https://npm.fontawesome.com/@fortawesome/react-fontawesome/-/react-fontawesome-0.1.3.tgz#266b4047892c3d10498af1075d89252f74015b11"
-  integrity sha512-tc689l67rPZ7+ynZVUgOXY80rAt5KxvuH1qjPpJcbyJzJHzk5yhrD993BjsSEdPBLTtPqmvwynsO/XrAQqHbtg==
+"@fortawesome/react-fontawesome@0.1.4":
+  version "0.1.4"
+  resolved "https://npm.fontawesome.com/@fortawesome/react-fontawesome/-/react-fontawesome-0.1.4.tgz#18d61d9b583ca289a61aa7dccc05bd164d6bc9ad"
+  integrity sha512-GwmxQ+TK7PEdfSwvxtGnMCqrfEm0/HbRHArbUudsYiy9KzVCwndxa2KMcfyTQ8El0vROrq8gOOff09RF1oQe8g==
   dependencies:
     humps "^2.0.1"
     prop-types "^15.5.10"
