@@ -1717,17 +1717,19 @@
     react-inspector "^3.0.2"
     uuid "^3.3.2"
 
-"@storybook/addon-links@4.1.1":
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-4.1.1.tgz#94c694754d8ec848bd3785c05b0366a3b5c368c7"
-  integrity sha512-3CXymEawhm1IoDLBj8eK01mPyuyy4T3sNBNsvxmXRJTT6qm7iZX18QBFGWOOX99RHcyadBA5d8B9OGSeL9WpgQ==
+"@storybook/addon-links@5.1.11":
+  version "5.1.11"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-5.1.11.tgz#3a245f30480d586094bdda8f4658c5d328ac39b9"
+  integrity sha512-NV4gRduMNm0dchKCWAZ4YQSYOdj5acoztGIz3w+xs9e+MAXOHXs7iL8sBbqAFlfz4elPGHWW+8NGn9UYxQFK+Q==
   dependencies:
-    "@storybook/addons" "4.1.1"
-    "@storybook/components" "4.1.1"
-    "@storybook/core-events" "4.1.1"
-    core-js "^2.5.7"
+    "@storybook/addons" "5.1.11"
+    "@storybook/core-events" "5.1.11"
+    "@storybook/router" "5.1.11"
+    common-tags "^1.8.0"
+    core-js "^3.0.1"
     global "^4.3.2"
-    prop-types "^15.6.2"
+    prop-types "^15.7.2"
+    qs "^6.6.0"
 
 "@storybook/addons@4.1.1":
   version "4.1.1"
@@ -11434,12 +11436,7 @@ qs@6.5.2, qs@~6.5.1, qs@~6.5.2:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
 
-qs@^6.5.2:
-  version "6.6.0"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.6.0.tgz#a99c0f69a8d26bf7ef012f871cdabb0aee4424c2"
-  integrity sha512-KIJqT9jQJDQx5h5uAVPimw6yVg2SekOKu959OCtktD3FjzbpvaPr8i4zzg07DOMz+igA4W/aNM7OV8H37pFYfA==
-
-qs@^6.6.0:
+qs@^6.5.2, qs@^6.6.0:
   version "6.7.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
