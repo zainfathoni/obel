@@ -14,8 +14,8 @@
     "@emotion/core": "10.0.5",
     "@emotion/styled": "10.0.5",
     "@reach/router": "1.2.1",
-    "react": "16.7.0-alpha.2",
-    "react-dom": "16.7.0-alpha.2",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
     "react-scripts": "3.1.1"
   },
   "devDependencies": {
