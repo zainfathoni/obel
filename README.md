@@ -125,7 +125,7 @@ The possible values are:
   - **End-to-End Tests**\
     Testing the whole app functionalities using `cypress` in the `cypress/e2e` folder
   - **Integration Tests**\
-    Testing the integration of complex components using `react-testing-library` in the `__tests__` folder
+    Testing the integration of complex components using `@testing-library/react` in the `__tests__` folder
   - **Visual Tests**\
     Testing the components' visual interaction using `storybook` in the `__stories__` folder
   - **Unit Tests**\
