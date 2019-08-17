@@ -1,4 +1,5 @@
 import styled from '@emotion/styled/macro'
+import tw from 'tailwind.macro'
 
 export const Main = styled.main`
   background-color: #282c34;
@@ -24,6 +25,7 @@ export const Logo = styled.img`
   }
 `
 
-export const Link = styled.a`
-  color: #61dafb;
+export const Link = tw.a`
+  text-blue-500
+  hover:underline
 `

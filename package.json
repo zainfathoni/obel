@@ -50,6 +50,7 @@
     "serve": "11.1.0",
     "source-map-explorer": "2.0.1",
     "start-server-and-test": "1.10.0",
+    "tailwind.macro": "1.0.0-alpha.10",
     "tailwindcss": "1.1.2"
   },
   "scripts": {
