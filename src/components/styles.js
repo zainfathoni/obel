@@ -1,21 +1,20 @@
 import { Link } from '@reach/router'
 import React from 'react'
-
 import styled from '@emotion/styled/macro'
+import tw from 'tailwind.macro'
 
-export const AppContainer = styled.div`
-  align-items: stretch;
-  display: flex;
-  flex-direction: column;
+export const AppContainer = tw.div`
+  flex flex-col items-stretch
 `
 
-export const NavWrapper = styled.div`
-  background-color: #d1c4e9;
+export const NavWrapper = tw.div`
+  bg-purple-200
 `
 
 export const NavContainer = styled.nav`
-  display: flex;
-  justify-content: flex-start;
+  ${tw`
+    flex justify-start
+  `};
   line-height: 3rem;
   margin: auto;
   max-width: 60em;

@@ -6,8 +6,8 @@ export const Main = styled.main`
   ${tw`
     flex flex-col items-center justify-center
     text-white bg-gray-800
+    text-3xl
   `}
-  font-size: calc(10px + 2vmin);
 `
 
 export const Logo = styled.img`
