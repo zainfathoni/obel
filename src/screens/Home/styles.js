@@ -2,14 +2,12 @@ import styled from '@emotion/styled/macro'
 import tw from 'tailwind.macro'
 
 export const Main = styled.main`
-  background-color: #282c34;
   min-height: 800px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  ${tw`
+    flex flex-col items-center justify-center
+    text-white bg-gray-800
+  `}
   font-size: calc(10px + 2vmin);
-  color: white;
 `
 
 export const Logo = styled.img`
