@@ -4,11 +4,6 @@ describe('create-react-app default app', () => {
       .url()
       .should('eq', `${Cypress.config().baseUrl}`)
 
-    cy.getByText(/learn react/i)
-      .click()
-      .url()
-      .should('eq', `${Cypress.config().baseUrl}`)
-
     cy.getByText(/^ojek$/i)
       .click()
       .url()
