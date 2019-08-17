@@ -56,7 +56,7 @@
     "analyze": "source-map-explorer build/static/js/main.*",
     "start": "npm-run-all --parallel start:css start:react",
     "build": "npm-run-all build:css build:react",
-    "start:react": "react-scripts start",
+    "start:react": "sleep 2 && react-scripts start",
     "build:react": "react-scripts build",
     "storybook": "start-storybook -p 9009 -s public",
     "build:storybook": "build-storybook -s public",
