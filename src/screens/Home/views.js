@@ -1,6 +1,7 @@
 import objstr from 'obj-str'
 import PropTypes from 'prop-types'
 import React from 'react'
+import logo from './logo.svg'
 
 export const Button = ({ children, on, onToggle }) => (
   <button
@@ -22,3 +23,5 @@ Button.propTypes = {
   on: PropTypes.bool.isRequired,
   onToggle: PropTypes.func.isRequired
 }
+
+export const Logo = () => <img alt='logo' className='spin h-64' src={logo} />

@@ -10,16 +10,3 @@ export const Main = styled.main`
   font-size: calc(10px + 2vmin);
   color: white;
 `
-
-export const Logo = styled.img`
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-`
