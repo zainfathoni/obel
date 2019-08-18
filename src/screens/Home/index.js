@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMotorcycle } from '@fortawesome/pro-light-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import objstr from 'obj-str'
+import React, { useState } from 'react'
 import logo from './logo.svg'
-import { Main, Logo } from './styles'
+import { Logo, Main } from './styles'
 
 function Home() {
   const [toggle, setToggle] = useState(false)

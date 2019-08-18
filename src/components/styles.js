@@ -1,7 +1,6 @@
+import styled from '@emotion/styled/macro'
 import { Link } from '@reach/router'
 import React from 'react'
-
-import styled from '@emotion/styled/macro'
 
 export const AppContainer = styled.div`
   align-items: stretch;

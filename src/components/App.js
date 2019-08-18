@@ -1,10 +1,9 @@
 import { Router } from '@reach/router'
 import React from 'react'
-
-import Nav from './Nav'
 import Home from 'screens/Home'
-import Ojek from 'screens/Ojek'
 import NotFound from 'screens/NotFound'
+import Ojek from 'screens/Ojek'
+import Nav from './Nav'
 import { AppContainer } from './styles'
 
 function App() {

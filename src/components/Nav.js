@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { NavContainer, NavLink, NavWrapper } from './styles'
 
 function Nav() {

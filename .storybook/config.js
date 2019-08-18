@@ -1,5 +1,4 @@
 import { configure } from '@storybook/react'
-
 import '../src/index.css'
 
 // Load all .stories.js files under __stories__ folder
