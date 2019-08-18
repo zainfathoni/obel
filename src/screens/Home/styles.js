@@ -23,7 +23,3 @@ export const Logo = styled.img`
     }
   }
 `
-
-export const Link = styled.a`
-  color: #61dafb;
-`
