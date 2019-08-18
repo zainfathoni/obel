@@ -1,9 +1,10 @@
 module.exports = {
   'src/**/*.{js,json,css,md}': [
-    'prettier',
+    'prettier-eslint --write',
     'npx sortier',
+    'eslint',
     'git add',
     'yarn test:staged',
-    'yarn build:react -s',
-  ],
+    'yarn build:react -s'
+  ]
 }
