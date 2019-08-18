@@ -1,8 +1,9 @@
 module.exports = {
-  '**/*.+(js|json|less|css|ts|tsx|md)': [
+  'src/**/*.{js,json,css,md}': [
     'prettier',
+    'npx sortier',
+    'git add',
     'yarn test:staged',
     'yarn build:react -s',
-    'git add',
   ],
 }
