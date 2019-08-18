@@ -1,6 +1,5 @@
+import { fireEvent, render } from '@testing-library/react'
 import React from 'react'
-import { render, fireEvent } from '@testing-library/react'
-
 import Home from '..'
 
 it('renders without crashing', () => {
@@ -9,8 +8,11 @@ it('renders without crashing', () => {
   expect(title).toBeDefined()
 
   const link = getByText(/learn react/i)
-  expect(link).toMatchSnapshot()
+  expect(link).toHaveClass('text-blue-400')
 
   fireEvent.click(link)
-  expect(link).toMatchSnapshot()
+  expect(link).toHaveClass('text-green-400')
+
+  fireEvent.click(link)
+  expect(link).toHaveClass('text-blue-400')
 })

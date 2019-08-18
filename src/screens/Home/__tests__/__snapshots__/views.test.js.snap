@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders differently based on the toggle value  1`] = `
+Snapshot Diff:
+- <Button />
++ <Button on={true} />
+
+  <button
+-   className="hover:underline text-blue-400"
++   className="hover:underline text-green-400"
+    onClick={[Function onClick]}
+  />
+`;

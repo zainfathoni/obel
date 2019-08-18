@@ -1,34 +1,22 @@
-import React, { useState } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMotorcycle } from '@fortawesome/pro-light-svg-icons'
-import objstr from 'obj-str'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import React, { useState } from 'react'
 import logo from './logo.svg'
-import { Main, Logo } from './styles'
+import { Logo, Main } from './styles'
+import { Button } from './views'
 
-function Home() {
+function Home () {
   const [toggle, setToggle] = useState(false)
   return (
-    <div className="text-center">
+    <div className='text-center'>
       <Main>
-        <Logo alt="logo" src={logo} />
+        <Logo alt='logo' src={logo} />
         <p>
           Ojek <FontAwesomeIcon icon={faMotorcycle} /> Belanja
         </p>
-        <button
-          className={
-            'hover:underline ' +
-            objstr({
-              'text-blue-400': !toggle,
-              'text-green-400': toggle,
-            })
-          }
-          onClick={e => {
-            e.preventDefault()
-            setToggle(!toggle)
-          }}
-        >
+        <Button on={toggle} onToggle={() => setToggle(!toggle)}>
           Learn React
-        </button>
+        </Button>
       </Main>
     </div>
   )
