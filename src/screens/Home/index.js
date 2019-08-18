@@ -5,12 +5,12 @@ import logo from './logo.svg'
 import { Logo, Main } from './styles'
 import { Button } from './views'
 
-function Home() {
+function Home () {
   const [toggle, setToggle] = useState(false)
   return (
-    <div className="text-center">
+    <div className='text-center'>
       <Main>
-        <Logo alt="logo" src={logo} />
+        <Logo alt='logo' src={logo} />
         <p>
           Ojek <FontAwesomeIcon icon={faMotorcycle} /> Belanja
         </p>

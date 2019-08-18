@@ -6,13 +6,13 @@ import Ojek from 'screens/Ojek'
 import Nav from './Nav'
 import { AppContainer } from './styles'
 
-function App() {
+function App () {
   return (
     <AppContainer>
       <Nav />
       <Router>
-        <Home path="/" />
-        <Ojek path="/ojek/:userId" />
+        <Home path='/' />
+        <Ojek path='/ojek/:userId' />
         <NotFound default />
       </Router>
     </AppContainer>

@@ -10,7 +10,7 @@ describe('Button', () => {
   it('calls onToggle correctly on click', () => {
     const onToggle = jest.fn()
     const { getByText } = render(
-      <Button onToggle={onToggle}>Learn React</Button>,
+      <Button onToggle={onToggle}>Learn React</Button>
     )
 
     fireEvent.click(getByText(/learn react/i))

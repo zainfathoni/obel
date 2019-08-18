@@ -1,13 +1,13 @@
 import React from 'react'
 import { NavContainer, NavLink, NavWrapper } from './styles'
 
-function Nav() {
+function Nav () {
   return (
     <NavWrapper>
       <NavContainer>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="ojek/jejen">Ojek</NavLink>
-        <NavLink right to="login">
+        <NavLink to='/'>Home</NavLink>
+        <NavLink to='ojek/jejen'>Ojek</NavLink>
+        <NavLink right to='login'>
           Login
         </NavLink>
       </NavContainer>
