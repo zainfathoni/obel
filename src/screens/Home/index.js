@@ -1,9 +1,9 @@
 import { faMotorcycle } from '@fortawesome/pro-light-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import objstr from 'obj-str'
 import React, { useState } from 'react'
 import logo from './logo.svg'
 import { Logo, Main } from './styles'
+import { Button } from './views'
 
 function Home() {
   const [toggle, setToggle] = useState(false)
@@ -14,21 +14,9 @@ function Home() {
         <p>
           Ojek <FontAwesomeIcon icon={faMotorcycle} /> Belanja
         </p>
-        <button
-          className={
-            'hover:underline ' +
-            objstr({
-              'text-blue-400': !toggle,
-              'text-green-400': toggle,
-            })
-          }
-          onClick={e => {
-            e.preventDefault()
-            setToggle(!toggle)
-          }}
-        >
+        <Button on={toggle} onToggle={() => setToggle(!toggle)}>
           Learn React
-        </button>
+        </Button>
       </Main>
     </div>
   )
