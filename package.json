@@ -77,7 +77,7 @@
     "storybook": "start-storybook -p 9009 -s public",
     "build:storybook": "build-storybook -s public",
     "start:css": "postcss src/shared/tailwind.css -o src/index.css -w",
-    "build:css": "NODE_ENV=production postcss src/shared/tailwind.css -o src/index.css",
+    "build:css": "cross-env NODE_ENV=production postcss src/shared/tailwind.css -o src/index.css",
     "serve": "serve --no-clipboard --single --listen 3000 build",
     "test": "react-scripts test",
     "test:coverage": "react-scripts test --coverage --watchAll=false",
