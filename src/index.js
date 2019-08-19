@@ -12,7 +12,14 @@ Sentry.init({
 const ui = <App />
 const container = document.getElementById('root')
 
-ReactDOM.render(ui, container)
+if (process.env.NODE_ENV !== 'production') {
+  import('react-axe').then(axe => {
+    axe(React, ReactDOM, 1000)
+    ReactDOM.render(ui, container)
+  })
+} else {
+  ReactDOM.render(ui, container)
+}
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

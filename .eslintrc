@@ -1,5 +1,5 @@
 {
-  "extends": ["standard", "standard-react"],
+  "extends": ["standard", "standard-react", "plugin:jsx-a11y/recommended"],
   "parser": "babel-eslint",
   "globals": {
     "describe": true,
