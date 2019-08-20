@@ -31,5 +31,5 @@ export const NavContainer = styled.nav`
 `
 
 export const NavLink = styled(({ right, ...props }) => <Link {...props} />)`
-  ${props => props.right && `margin-left: auto;`}
+  ${props => props.right && 'margin-left: auto;'}
 `
