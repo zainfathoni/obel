@@ -1,4 +1,4 @@
-import { render, cleanup } from '@testing-library/react'
+import { cleanup, render } from '@testing-library/react'
 import { axe, toHaveNoViolations } from 'jest-axe'
 import React from 'react'
 import App from '../App'
@@ -12,15 +12,8 @@ it('renders without crashing', () => {
 })
 
 it('check for a11y violations', async () => {
-  const { container } = render(<App/>)
+  const { container } = render(<App />)
   const results = await axe(container)
   expect(results).toHaveNoViolations()
   cleanup()
-})
-
-it('should be breaking a11y violations', async () => {
-  const Img = () => <img src="#"/>
-  const { container } = render(<Img/>)
-  const results = await axe(container)
-  expect(results).toHaveNoViolations()
 })
