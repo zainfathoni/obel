@@ -47,3 +47,5 @@ body {
  * .bg-pattern-graph-paper { ... }
  * .skew-45 { ... }
  */
+
+@import 'shared/custom-utilities.css';
