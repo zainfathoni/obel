@@ -4,7 +4,7 @@ describe('create-react-app default app', () => {
       .url()
       .should('eq', `${Cypress.config().baseUrl}`)
 
-    cy.getByText(/^ojek$/i)
+    cy.findByText(/^ojek$/i)
       .click()
       .url()
       .should('eq', `${Cypress.config().baseUrl}ojek/jejen`)
