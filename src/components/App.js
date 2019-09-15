@@ -3,7 +3,7 @@ import React from 'react'
 import Home from 'screens/Home'
 import NotFound from 'screens/NotFound'
 import Ojek from 'screens/Ojek'
-import TokoPage from 'screens/TokoPage/index'
+import TokoPage from 'screens/TokoPage'
 import Nav from './Nav'
 import { AppContainer } from './styles'
 
@@ -14,7 +14,7 @@ function App () {
       <Router>
         <Home path='/' />
         <Ojek path='/ojek/:userId' />
-        <TokoPage path='toko_page' />
+        <TokoPage path='toko-page' />
         <NotFound default />
       </Router>
     </AppContainer>
