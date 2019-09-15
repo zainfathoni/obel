@@ -7,6 +7,7 @@ function Nav () {
       <NavContainer>
         <NavLink to='/'>Home</NavLink>
         <NavLink to='ojek/jejen'>Ojek</NavLink>
+        <NavLink to='toko-page'>Toko Page</NavLink>
         <NavLink right to='login'>
           Login
         </NavLink>

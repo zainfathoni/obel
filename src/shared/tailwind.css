@@ -49,3 +49,13 @@ body {
  */
 
 @import 'shared/custom-utilities.css';
+
+/* Reset Box sizing */
+@responsive {
+  .border-box {
+    box-sizing: border-box;
+  }
+  .content-box {
+    box-sizing: content-box;
+  }
+}
