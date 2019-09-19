@@ -23,7 +23,7 @@
   "devDependencies": {
     "@babel/core": "7.6.0",
     "@fortawesome/fontawesome-free": "5.10.2",
-    "@fortawesome/fontawesome-pro": "5.10.2",
+    "@fortawesome/fontawesome-pro": "5.11.1",
     "@fortawesome/fontawesome-svg-core": "1.2.23",
     "@fortawesome/free-brands-svg-icons": "5.10.2",
     "@fortawesome/free-regular-svg-icons": "5.11.0",

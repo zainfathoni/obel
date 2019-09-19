@@ -986,10 +986,10 @@
   resolved "https://npm.fontawesome.com/@fortawesome/fontawesome-free/-/fontawesome-free-5.10.2.tgz#27e02da1e34b50c9869179d364fb46627b521130"
   integrity sha512-9pw+Nsnunl9unstGEHQ+u41wBEQue6XPBsILXtJF/4fNN1L3avJcMF/gGF86rIjeTAgfLjTY9ndm68/X4f4idQ==
 
-"@fortawesome/fontawesome-pro@5.10.2":
-  version "5.10.2"
-  resolved "https://npm.fontawesome.com/@fortawesome/fontawesome-pro/-/fontawesome-pro-5.10.2.tgz#03092f3759af9aa7c1b4ef064e18ce35b4f6f9d6"
-  integrity sha512-cWDAbjzIqdEQAbQW/RK5bn1qDUs6pnz2TkJPvR+cTjZHnHlFOX+Zu1iUOEKab+HY38qyZyeA+1C675N+ee/rgg==
+"@fortawesome/fontawesome-pro@5.11.1":
+  version "5.11.1"
+  resolved "https://npm.fontawesome.com/@fortawesome/fontawesome-pro/-/fontawesome-pro-5.11.1.tgz#504dbd56610dd4255ec328d67803bc04f9c8044d"
+  integrity sha512-Ri4dye6pY3/ORaDuSj6BHPIyN7FJP98FzhgwHnL1AGTMr+1ipUULpzChZ/jK8sNKual/utfPkp4yp5JTT3ZrwQ==
 
 "@fortawesome/fontawesome-svg-core@1.2.23":
   version "1.2.23"
