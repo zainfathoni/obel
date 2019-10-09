@@ -11,7 +11,7 @@
   },
   "repository": "github:zainfathoni/obel",
   "dependencies": {
-    "@emotion/core": "10.0.17",
+    "@emotion/core": "10.0.21",
     "@emotion/styled": "10.0.17",
     "@reach/router": "1.2.1",
     "obj-str": "1.0.3",
