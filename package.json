@@ -21,7 +21,7 @@
     "reakit": "1.0.0-beta.8"
   },
   "devDependencies": {
-    "@babel/core": "7.6.2",
+    "@babel/core": "7.6.4",
     "@fortawesome/fontawesome-free": "5.11.2",
     "@fortawesome/fontawesome-pro": "5.11.1",
     "@fortawesome/fontawesome-svg-core": "1.2.25",
