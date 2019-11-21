@@ -10307,10 +10307,10 @@ polished@^3.3.1:
   dependencies:
     "@babel/runtime" "^7.4.5"
 
-popper.js@^1.14.4, popper.js@^1.14.7, popper.js@^1.15.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.15.0.tgz#5560b99bbad7647e9faa475c6b8056621f5a4ff2"
-  integrity sha512-w010cY1oCUmI+9KwwlWki+r5jxKfTFDVoadl7MSrIujHU5MJ5OR6HTDj6Xo8aoR/QsA56x8jKjA59qGH4ELtrA==
+popper.js@^1.14.4, popper.js@^1.14.7, popper.js@^1.16.0:
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.16.0.tgz#2e1816bcbbaa518ea6c2e15a466f4cb9c6e2fbb3"
+  integrity sha512-+G+EkOPoE5S/zChTpmBSSDYmhXJ5PsW8eMhH8cP/CQHMFPBG/kC9Y5IIw6qNYgdJ+/COf0ddY2li28iHaZRSjw==
 
 portfinder@^1.0.9:
   version "1.0.21"
@@ -11824,25 +11824,25 @@ readdirp@^2.2.1:
     micromatch "^3.1.10"
     readable-stream "^2.0.2"
 
-reakit-system@^0.6.5:
-  version "0.6.5"
-  resolved "https://registry.yarnpkg.com/reakit-system/-/reakit-system-0.6.5.tgz#d14d46fe380f6ca452e94f1bdf59fd1840846c37"
-  integrity sha512-KcCI8NA/HZTUkO3nmOv8bfR8XKzahydeK1gjlcYpXxf/AAvjb2wLoiXDXN05tMJsZq9euj+BB6vrpuvpS82qtA==
+reakit-system@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/reakit-system/-/reakit-system-0.7.0.tgz#f630fe18af7a2a5a510035db36744c8d47798170"
+  integrity sha512-6MaQsoyIhU0b0RGfIfGSSGujCx0XVBtfJkRcn+TviiWwMXGS9liTCDBE1vn7fLnUYiR6kqll50Nmw//oIn97cg==
 
-reakit-utils@^0.6.5:
-  version "0.6.5"
-  resolved "https://registry.yarnpkg.com/reakit-utils/-/reakit-utils-0.6.5.tgz#fd71ce80ac278f3da5c73cb1fc8233b52079438e"
-  integrity sha512-EJz8A3reLagPuVXRXBd6wZ32J4EtoKnWLcu0bnJuJ0TruIV00GPRLNJCCCYJBnkXiE9rPr+OijX4U57wZIzULQ==
+reakit-utils@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/reakit-utils/-/reakit-utils-0.7.1.tgz#f596327fcf66d6adf5c0dba2ca34b3e63994e1ec"
+  integrity sha512-xQJctof9V+wkC7OxSL7P14d5Se6l/apCfhY8liIfVihtakzXOkvKea4Ka/TbEfpoTKN7MRO4xNMxjfzuGFexHQ==
 
-reakit@1.0.0-beta.8:
-  version "1.0.0-beta.8"
-  resolved "https://registry.yarnpkg.com/reakit/-/reakit-1.0.0-beta.8.tgz#c00974be4c7cb37e0b934e1278a4fe4d62e991df"
-  integrity sha512-ePfumMrM75+OgCT96dHuC05SknEIF0PwdvzDFK7V9gvHpLCR5nn4WqyO8A+kLVAe9SHOQMVH0MPv7kMV90kyyg==
+reakit@1.0.0-beta.12:
+  version "1.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/reakit/-/reakit-1.0.0-beta.12.tgz#89ae018ecd8a8a7250b3bd1f374564a112c9270b"
+  integrity sha512-jf/0RWmJypG9wFbbCSj9mFxb474TCFnAweKnrh3yLJiMjKDEAFXic0cNyhqxSuOUUyZeT67bUFbu25DXBNfRmQ==
   dependencies:
     body-scroll-lock "^2.6.4"
-    popper.js "^1.15.0"
-    reakit-system "^0.6.5"
-    reakit-utils "^0.6.5"
+    popper.js "^1.16.0"
+    reakit-system "^0.7.0"
+    reakit-utils "^0.7.1"
 
 realpath-native@^1.1.0:
   version "1.1.0"
