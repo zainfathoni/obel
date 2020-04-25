@@ -18,7 +18,7 @@
     "obj-str": "1.0.3",
     "react": "16.10.2",
     "react-dom": "16.12.0",
-    "react-scripts": "3.1.1",
+    "react-scripts": "3.4.1",
     "reakit": "1.0.0-beta.13"
   },
   "devDependencies": {
@@ -42,7 +42,7 @@
     "@testing-library/cypress": "5.0.1",
     "@testing-library/jest-dom": "4.2.0",
     "@testing-library/react": "9.3.2",
-    "autoprefixer": "9.6.4",
+    "autoprefixer": "9.7.5",
     "babel-eslint": "10.0.2",
     "cross-env": "6.0.3",
     "cypress": "3.4.1",
