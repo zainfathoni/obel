@@ -34,7 +34,7 @@ Branch Name: **`feature/{issue-slug}`**
 
 ### _Name_ Component
 
-_Component description_
+Describe the component behavior here
 
 #### Files
 
