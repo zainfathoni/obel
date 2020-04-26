@@ -175,7 +175,7 @@ Just reach out to me, I will be glad to help you if you get that kind of problem
 
 #### Forking
 
-It's completely fine to [fork this repository](https://help.github.com/articles/fork-a-repo/) so you could play around with your own pace, as long as you don't use it directly for a project in production, but make sure that you know what you're doing, because it means that you have to make sure that your fork repository is [properly synchronized](https://help.github.com/articles/syncing-a-fork/) to my upstream repository.
+It's completely fine to [fork this repository](https://help.github.com/articles/fork-a-repo/) so you could play around with your own pace, but make sure that you know what you're doing, because it means that you have to make sure that your fork repository is [properly synchronized](https://help.github.com/articles/syncing-a-fork/) to my upstream repository.
 
 To verify that you set up your local machine correctly with your fork repository and my upstream repository, just run the `git remote -v` command and you should see something like this.
 
