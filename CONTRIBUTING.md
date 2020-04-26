@@ -121,7 +121,7 @@ Inspired by some of [existing Git Workflows out there](https://www.atlassian.com
 
 | Branch Template        | Example                  | Purpose                                            |
 | ---------------------- | ------------------------ | -------------------------------------------------- |
-| `feature/[issue-slug]` | `feature/top-navigation` | For new development tasks related to an issue      |
-| `bugfix/[bug-slug]`    | `bugfix/nav-link`        | For bug fixes related to an issue                  |
-| `chore/[chore-slug]`   | `chore/update-readme`    | For supporting system setup                        |
-| `personal/[username]`  | `personal/ri7nz`         | For all your initiatives, undocumented tasks, etc. |
+| `feature/{issue-slug}` | `feature/top-navigation` | For new development tasks related to an issue      |
+| `bugfix/{bug-slug}`    | `bugfix/nav-link`        | For bug fixes related to an issue                  |
+| `chore/{chore-slug}`   | `chore/update-readme`    | For supporting system setup                        |
+| `personal/{username}`  | `personal/ri7nz`         | For all your initiatives, undocumented tasks, etc. |
