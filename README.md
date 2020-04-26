@@ -95,7 +95,6 @@ For each issue, I will define at least four of these specifications:
 1. 🗣 User Story
 2. 🆗 Acceptance Criteria
 3. ✅ Tasks
-4. 💵 Price
 
 #### 1. User Story
 
@@ -130,15 +129,6 @@ The possible values are:
     Testing the components' visual interaction using `storybook` in the `__stories__` folder
   - **Unit Tests**\
     Test utility functions using plain JavaScript testing to cover edge cases untested with the Integration Tests
-
-#### 4. Price
-
-I will offer the price of the issue proportionally based on its complexity.
-It's okay to challenge my pricing, if you think it's not fair enough.
-
-Payment will be done in batch, probably biweekly or monthly, I don't want to waste my time to process too many transactions due to rigorous payment processing.
-
-Well, even though the price is way below under the market rate, but I offer a useful learning experience by doing this project. 😉
 
 ### Technical Constraints
 
@@ -212,11 +202,12 @@ I would like to have all branches in this repository except `master` and `dev` (
 
 Inspired by some of [existing Git Workflows out there](https://www.atlassian.com/git/tutorials/comparing-workflows), I decided to have this convention:
 
-| Branch Tpmplate                              | Example                                 | Purpose                                            |
-| -------------------------------------------- | --------------------------------------- | -------------------------------------------------- |
-| `feature/[issue-id]-[issue-slug]/[username]` | `feature/14-top-navigation/zainfathoni` | For new development tasks related to an issue      |
-| `bugfix/[issue-id]-[bug-slug]/[username]`    | `bugfix/10-nav-link/adibfirman`         | For bug fixes related to an issue                  |
-| `personal/[username]`                        | `personal/ri7nz`                        | For all your initiatives, undocumented tasks, etc. |
+| Branch Template                   | Example                     | Purpose                                            |
+| --------------------------------- | --------------------------- | -------------------------------------------------- |
+| `feature/[issue-id]-[issue-slug]` | `feature/14-top-navigation` | For new development tasks related to an issue      |
+| `bugfix/[issue-id]-[bug-slug]`    | `bugfix/10-nav-link`        | For bug fixes related to an issue                  |
+| `chore/[issue-id]-[chore-slug]`   | `chore/180-update-readme`   | For supporting system setup                        |
+| `personal/[username]`             | `personal/ri7nz`            | For all your initiatives, undocumented tasks, etc. |
 
 ## License
 
