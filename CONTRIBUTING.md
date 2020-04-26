@@ -119,9 +119,9 @@ I would like to have all branches in this repository except `master` and `dev` (
 
 Inspired by some of [existing Git Workflows out there](https://www.atlassian.com/git/tutorials/comparing-workflows), I decided to have this convention:
 
-| Branch Template                   | Example                     | Purpose                                            |
-| --------------------------------- | --------------------------- | -------------------------------------------------- |
-| `feature/[issue-id]-[issue-slug]` | `feature/14-top-navigation` | For new development tasks related to an issue      |
-| `bugfix/[issue-id]-[bug-slug]`    | `bugfix/10-nav-link`        | For bug fixes related to an issue                  |
-| `chore/[issue-id]-[chore-slug]`   | `chore/180-update-readme`   | For supporting system setup                        |
-| `personal/[username]`             | `personal/ri7nz`            | For all your initiatives, undocumented tasks, etc. |
+| Branch Template        | Example                  | Purpose                                            |
+| ---------------------- | ------------------------ | -------------------------------------------------- |
+| `feature/[issue-slug]` | `feature/top-navigation` | For new development tasks related to an issue      |
+| `bugfix/[bug-slug]`    | `bugfix/nav-link`        | For bug fixes related to an issue                  |
+| `chore/[chore-slug]`   | `chore/update-readme`    | For supporting system setup                        |
+| `personal/[username]`  | `personal/ri7nz`         | For all your initiatives, undocumented tasks, etc. |
