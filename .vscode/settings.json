@@ -1,10 +1,12 @@
 {
   "css.validate": false,
   "eslint.alwaysShowStatus": true,
-  "eslint.autoFixOnSave": true,
   "eslint.run": "onType",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "prettier.eslintIntegration": true,
   "todohighlight.toggleURI": true,
-  "typescript.disableAutomaticTypeAcquisition": true
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
