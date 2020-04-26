@@ -3,7 +3,8 @@
   "description": "Ojek Belanja",
   "homepage": "https://www.ojekbelanja.com/",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "license": "MIT",
   "author": {
     "name": "Zain Fathoni",
     "email": "zain.fathoni@gmail.com",

@@ -211,6 +211,4 @@ Inspired by some of [existing Git Workflows out there](https://www.atlassian.com
 
 ## License
 
-© Copyright 2018-2019 Zain Fathoni, All Rights Reserved.
-
-For more information, see the LICENSE file in this directory.
+See the [LICENSE](LICENSE) file for license rights and limitations (MIT).
